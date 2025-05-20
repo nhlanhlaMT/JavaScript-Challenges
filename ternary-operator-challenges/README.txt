@@ -62,6 +62,7 @@ Every number modulo itself is 0 (except 0), so this is redundant.
 You're trying to check just for divisibility by 5.
 
 "Not a FizzBuzz" — according to classic FizzBuzz, you should return the number itself (not a message) if it's not divisible by 3 or 5.
+_______________________________________________________________________________________________________________________________________________________
 
      // Challenge 9: Price Tier Selector
   
@@ -81,6 +82,8 @@ console.log(getPriceByUserType("Regular")); // $20
 console.log(getPriceByUserType("VIP"));     // $30
 console.log(getPriceByUserType("guest"));   // Invalid User Type
 
+_______________________________________________________________________________________________________________________________________________________
+   
     // Challenge 10: Theme Toggle (Dark/Light Mode)
     
 function colorMode(isDarkMode) {
@@ -92,6 +95,7 @@ console.log(colorMode(true));
 console.log(colorMode(false));
 
 ISSUE: Since isDarkMode is already a boolean, there's no no to explicitly check === true.
+_______________________________________________________________________________________________________________________________________________________
 
     // Challenge 12: Shipping Cost Logic
 
@@ -103,3 +107,6 @@ ISSUE: Since isDarkMode is already a boolean, there's no no to explicitly check 
 console.log(memberCartValueCheck(true, 501));
 
 MISTAKE: [return isMember, cartValue > 500] = That line uses a comma operator, which doesn’t do what you’re expecting. It evaluates both expressions but only returns the second one, so isMember is ignored.
+_______________________________________________________________________________________________________________________________________________________
+
+   // 

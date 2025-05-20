@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LightBulb Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="lightbulb">
+    <h2>Turn ON and OFF</h2>
+    <button onclick="document.getElementById('myImage').src='light-on.png'">Turn ON</button>
+    <img id="myImage" src="light-off.png" alt="lightbulb">
+    <button onclick="document.getElementById('myImage').src='light-off.png'">Turn OFF</button>
+
+    <!-- ADDING DIM LIGHT OPTION-->
+    <div class="dimLight">
+      <button onclick="document.getElementById('myImage').src='light-dim.png'">DIM Light</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
