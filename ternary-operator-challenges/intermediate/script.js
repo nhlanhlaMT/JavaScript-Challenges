@@ -1,3 +1,5 @@
+"use strict";
+
 // Challenge 5: Multiple Conditions with Nesting
 /*Input age →
 "Child" if < 13,

@@ -1,3 +1,5 @@
+"use strict";
+
 // Challenge 9: Price Tier Selector
 /*Given userType ("student", "regular", "vip") →
 Return price: "$10", "$20", or "$30" respectively.*/

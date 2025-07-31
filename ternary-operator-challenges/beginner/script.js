@@ -1,3 +1,5 @@
+"use strict";
+
 // Challenge 1: Check if number is positive or negative
 // Input a number → Output "Positive" or "Negative or Zero".
 
