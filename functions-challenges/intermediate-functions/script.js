@@ -12,6 +12,7 @@ alert(max(2, 5));
 // Task 2: Factorial function
 // Write a function factorial(n) that returns the factorial of n (e.g., factorial(5) → 120).
 
+//  RESEARCHED THIS ONE AS I AM NOT THAT MUCH OF A MATH PERSON, TURNS OUT I DID QUITE WELL! 
 function factorial(n) {
   if (n < 0) {
     return `Undefined.`;
@@ -29,4 +30,17 @@ alert(factorial(5));
 // Write a function isPalindrome(word) that checks if a word reads the same forwards and backwards.
 // Example: isPalindrome("racecar") → true.
 
+// Truly, had no IDEA of how I can solve this one, so I utterly requested assistance from AI. Gave some useful insights.
 
+function isPalindrome(word) {
+  let len = word.length;
+  for (let i = 0; i < len / 2; i++) {
+    if (word[i] !== word[len - 1 - i]) {
+      return false; // mismatch found
+    }
+  }
+  return true; // all pairs matched
+}
+
+alert(isPalindrome("racecar")); // true
+alert(isPalindrome("hello"));   // false
