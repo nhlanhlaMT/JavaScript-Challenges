@@ -16,13 +16,15 @@
 
 
 // My solution using a question mark operator ?
-// function checkAge(age) {
-//   return age > 18 ? true : confirm("Did parents allow you?");
-// }
 
-// alert(checkAge(19));
+function checkAge(age) {
+  return age > 18 ? true : confirm("Did parents allow you?");
+}
+
+alert(checkAge(17));
 
 // My solution OR ||
+
 function checkAge(age) {
   return (age > 18) || confirm("Did parents allow you?");
 }
